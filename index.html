@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Save Student Name</title>
+    </head>
+
+    <body>
+        <h1>Add Student Name</h1>
+        <form id="studentForm">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h1>Show Students List:</h1>
+        <ul id="studentsList"></ul> <!-- List of the students will appear here-->
+        <button type="button" onclick="fetchStudentsList()">Reload List</button>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
